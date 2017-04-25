@@ -1,0 +1,132 @@
+/***************/
+/* YOUR STYLES */
+/***************/
+<style>
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
+</style>
+
+
+
+
+/* Color Palette */
+
+.color-1 {
+    background: lavender;
+}
+
+.color-2 {
+    background: #9a83ce;
+}
+
+.color-3 {
+    background: #2c2c69;
+}
+
+.color-4 {
+    background: #9ac8dd;
+}
+
+.color-5 {
+    background: #6e6e88;
+}
+
+
+
+
+
+
+
+/* Textures or Patterns*/
+
+.pattern-1 {
+    background: url("../img/straws.png");
+}
+
+.pattern-2 {
+    background: url("../img/skelatal_weave.png");
+}
+
+.pattern-3 {
+    background: url("../img/noisy_grid.png");
+}
+
+
+
+
+
+/* Imagery */
+
+
+
+div.imagery-1 img {
+    
+    box-shadow:  10px 10px 10px #ccc;
+    border: none;
+    
+}
+
+
+
+
+
+
+/* Icons */
+
+.grid-container {
+    border: none;
+}
+
+
+
+
+
+/* Navigation */
+
+a:link {
+    
+    text-decoration: none;
+    
+}
+
+a:visited {
+    
+}
+
+a:focus {
+    
+    background: slategray;
+    
+}
+
+a:hover {
+    color: #2c2c69;
+    border-bottom: solid 1px #2c2c69;
+    
+}
+
+a:active {
+    
+}
+
+
+
+
+
+
+
+
+/* Typography */
+
+
+h1 {
+    color: #2c2c69;
+    font-family: 'Press Start 2P', cursive;
+}
+
+h2 {
+    color: #6e6e88;
+}
+
+p {
+    line-height: 1.6em;
+}
