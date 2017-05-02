@@ -2,131 +2,73 @@
 /* YOUR STYLES */
 /***************/
 <style>
-@import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
+@import url('https://fonts.googleapis.com/css?family=Love+Ya+Like+A+Sister');
 </style>
-
-
 
 
 /* Color Palette */
 
 .color-1 {
-    background: lavender;
-}
-
+    background: yellow;}
 .color-2 {
-    background: #9a83ce;
-}
-
+    background: maroon;}
 .color-3 {
-    background: #2c2c69;
-}
-
+    background: beige;}
 .color-4 {
-    background: #9ac8dd;
-}
-
+    background: sienna;}
 .color-5 {
-    background: #6e6e88;
-}
-
-
-
-
+    background: #6e6e88;}
 
 
 
 /* Textures or Patterns*/
 
 .pattern-1 {
-    background: url("../img/straws.png");
-}
-
+    background: url("../img/zig%20zag%20wool.png");}
 .pattern-2 {
-    background: url("../img/skelatal_weave.png");
-}
-
+    background: url("../img/skelatal_weave.png");}
 .pattern-3 {
-    background: url("../img/noisy_grid.png");
-}
-
-
-
+    background: url("../img/noisy_grid.png");}
 
 
 /* Imagery */
 
-
-
 div.imagery-1 img {
-    
     box-shadow:  10px 10px 10px #ccc;
-    border: none;
-    
-}
-
-
-
+    border: none;}
 
 
 
 /* Icons */
 
 .grid-container {
-    border: none;
-}
-
-
-
+    border: none;}
 
 
 /* Navigation */
 
 a:link {
-    
-    text-decoration: none;
-    
-}
-
+    text-decoration: none;}
 a:visited {
     
 }
-
 a:focus {
-    
-    background: slategray;
-    
-}
-
+    background: slategray;}
 a:hover {
     color: #2c2c69;
-    border-bottom: solid 1px #2c2c69;
-    
-}
-
+    border-bottom: solid 1px #2c2c69;}
 a:active {
     
 }
 
 
 
-
-
-
-
-
 /* Typography */
-
 
 h1 {
     color: #2c2c69;
-    font-family: 'Press Start 2P', cursive;
-}
-
+    font-family: 'Love Ya Like A Sister', sans-serif;}
 h2 {
-    color: #6e6e88;
-}
-
+    color: maroon;}
 p {
-    line-height: 1.6em;
-}
+    line-height: 1.6em;}
