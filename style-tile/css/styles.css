@@ -58,7 +58,8 @@ a:hover {
     color: #2c2c69;
     border-bottom: solid 1px #2c2c69;}
 a:active {
-    
+    transition: color .3s;
+    color: #007BE6;
 }
 
 
