@@ -2,38 +2,34 @@
 /* YOUR STYLES */
 /***************/
 <style>
-@import url('https://fonts.googleapis.com/css?family=Love+Ya+Like+A+Sister');
-@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Shrikhand');
 </style>
 
 
 /* Color Palette */
-
 .color-1 {
-    background: yellow;}
+    background: beige;}
 .color-2 {
     background: maroon;}
 .color-3 {
-    background: beige;}
+    background: #ba4c1a;}
 .color-4 {
-    background: sienna;}
+    background: #f4df42;}
 .color-5 {
     background: #6e6e88;}
 
 
 
 /* Textures or Patterns*/
-
 .pattern-1 {
-    background: url("../img/zig%20zag%20wool.png");}
+    background: url("");}
 .pattern-2 {
-    background: url("../img/skelatal_weave.png");}
+    background: url("");}
 .pattern-3 {
-    background: url("../img/noisy_grid.png");}
+    background: url("");}
 
 
 /* Imagery */
-
 div.imagery-1 img {
     box-shadow:  10px 10px 10px #ccc;
     border: none;}
@@ -41,36 +37,57 @@ div.imagery-1 img {
 
 
 /* Icons */
-
 .grid-container {
     border: none;}
 
 
 /* Navigation */
-
 a:link {
-    text-decoration: none;}
+    text-decoration: none;
+    color: #c62929;}
 a:visited {
-    
-}
+    color: maroon;}
 a:focus {
-    background: slategray;}
+    }
 a:hover {
-    color: #2c2c69;
-    border-bottom: solid 1px #2c2c69;}
+    color: #f94545;
+    border-bottom: solid 1px #f94545;}
 a:active {
     transition: color .3s;
-    color: #007BE6;
-}
+    color: maroon;
+    border-bottom: solid 1px maroon;}
+
+/* List */
+ul {
+     list-style: square outside none;
+    font-family: 'Open Sans', sans-serif;}
+
+button {
+  background: #c62929;
+  background-image: -webkit-linear-gradient(top, #c62929, maroon);
+  background-image: -moz-linear-gradient(top, #c62929, maroon);
+  background-image: -ms-linear-gradient(top, #c62929, maroon);
+  background-image: -o-linear-gradient(top, #c62929, maroon);
+  background-image: linear-gradient(to bottom, #c62929, maroon);
+  border: none;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;}
+button:hover {
+  background: maroon;
+  text-decoration: none;}
 
 
 
 /* Typography */
-
 h1 {
-    color: #2c2c69;
-    font-family: 'Love Ya Like A Sister', sans-serif;}
-h2 {
-    color: maroon;}
+    color: #6e6e88;
+    font-family: 'Shrikhand', cursive;
+    font-size: 4em;}
+h2, h3 {
+    color: maroon;
+    font-family: 'Open Sans', sans-serif;}
 p {
-    line-height: 1.6em;}
+    line-height: 1.6em;
+   font-family: 'Open Sans', sans-serif;}

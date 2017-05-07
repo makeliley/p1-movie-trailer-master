@@ -1,4 +1,17 @@
 /* Styling */
 body {
-    background: rgba(0, 240, 194, 0.71);
+    width: 80%;
+    margin: 0 auto;
 }
+
+/* Typography */
+h1 {
+    color: #6e6e88;
+    font-family: 'Shrikhand', cursive;
+    font-size: 5em;}
+h2, h3 {
+    color: maroon;
+    font-family: 'Open Sans', sans-serif;}
+p {
+    line-height: 1.6em;
+   font-family: 'Open Sans', sans-serif;}
